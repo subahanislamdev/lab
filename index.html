@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Registration Form of BSFMSTU </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ <div class="container bg-light">
+    <div class="row p-5">
+       <marquee behavior="" direction="2s"> <h1 class="fs-4 fw-bold my-3 text-danger">Student Registration Form</h1></marquee>
+       <div class="col-md-12">
+        <form action="">
+           <div class="col-md-12 sm-12">
+            <label for="" class="my-2">Student Name:  <input type="text" placeholder="Enter Your Fast Name" class="py-2 px-3 border-0 rounded-2 mb-2">
+                <input type="text" placeholder="Enter Your Last Name" class="py-2 px-3 border-0 rounded-2">
+            </label><br> 
+           </div>
+            <label for="" class="my-2">Father Name:  <input type="text" placeholder="Enter Your Father Name" class="py-2 px-3 border-0 rounded-2">
+            </label><br> 
+            <label for="" class="my-2">Mother Name:  <input type="text" placeholder="Enter Your Mother Name" class="py-2 px-3 border-0 rounded-2">
+            </label><br>
+            <label for="id" class="my-2">Student ID:  <input type="number" placeholder="Enter Your ID" class="py-2 px-3 border-0 rounded-2">
+            </label> 
+            <label for="type">Student Type:</label>
+            <select name="Student Type" id="type" class="py-2 px-3 border-0 rounded-2 mb-2">
+                <option value="Regular">Regular</option>
+                <option value="Irregular">Irregular</option>
+            </select> <br>
+            <label for="type" >Department:</label>
+            <select name="Department" id="type" class="py-2 px-3 border-0 rounded-2">
+                <option value="CSE">CSE</option>
+                <option value="EEE">EEE</option>
+                <option value="MATH">MATH</option>
+                <option value="Fisheries">Fisheries</option>
+                <option value="Social Work">Social Work</option>
+                <option value="Management">Management</option>
+            </select>
+            <label for="id" class="my-2">Contact number:  <input type="number" placeholder="Enter Your Phone number" class="py-2 px-3 border-0 rounded-2 w-50">
+            </label> <br>
+            <div class="col-md-12">
+                <label for=""> Present Address: <br>
+                    <textarea name="" id="" cols="50" rows="5"></textarea>
+                </label> &nbsp;
+                <label for=""> Permanent Address: <br>
+                    <textarea name="" id="" cols="50" rows="5"></textarea>
+                </label>
+            </div>
+            <label for="picture">Picture 
+                <input type="file" class="py-2 px-3 border-0 rounded-2" id="picture" value="picture">
+            </label>
+            <label for="picture" class="mb-3">Payment Method 
+                <button  class="py-1 px-3 border-0 rounded-2 bg-danger text-light fs-5 fw-bolder my-1 me-3">Bikash</button>
+                <button class="py-1 px-3 border-0 rounded-2 bg-success text-light fs-5 fw-bolder my-1">Nogoth</button>
+            </label><br>
+            <input type="button" value="Submit" class="py-1 px-3 border-0 rounded-2 bg-dark text-light fs-5 fw-bolder text-center d-block m-auto">
+        </form>
+       </div>
+    </div>
+ </div>
+</body>
+</html>
