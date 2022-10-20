@@ -46,18 +46,25 @@
                 <input type="text" placeholder="Enter Your Last Name" class="py-2 px-3 border-0 rounded-2">
             </label><br> 
            </div>
+           <div class="col-md-12">
             <label for="" class="my-2">Father Name:  <input type="text" placeholder="Enter Your Father Name" class="py-2 px-3 border-0 rounded-2">
-            </label><br> 
-            <label for="" class="my-2">Mother Name:  <input type="text" placeholder="Enter Your Mother Name" class="py-2 px-3 border-0 rounded-2">
-            </label><br>
+            </label> 
+           </div>
+            <div class="col-md-12">
+                <label for="" class="my-2">Mother Name:  <input type="text" placeholder="Enter Your Mother Name" class="py-2 px-3 border-0 rounded-2">
+                </label>
+            </div>
+           <div class="col-md-12">
             <label for="id" class="my-2">Student ID:  <input type="number" placeholder="Enter Your ID" class="py-2 px-3 border-0 rounded-2">
             </label> 
             <label for="type">Student Type:</label>
             <select name="Student Type" id="type" class="py-2 px-3 border-0 rounded-2 mb-2">
                 <option value="Regular">Regular</option>
                 <option value="Irregular">Irregular</option>
-            </select> <br>
-            <label for="type" >Department:</label>
+            </select>
+           </div>
+            <div class="col-md-12">
+                <label for="type" >Department:</label>
             <select name="Department" id="type" class="py-2 px-3 border-0 rounded-2">
                 <option value="CSE">CSE</option>
                 <option value="EEE">EEE</option>
@@ -67,23 +74,41 @@
                 <option value="Management">Management</option>
             </select>
             <label for="id" class="my-2">Contact number:  <input type="number" placeholder="Enter Your Phone number" class="py-2 px-3 border-0 rounded-2 w-50">
-            </label> <br>
-            <div class="col-md-12">
-                <label for=""> Present Address: <br>
-                    <textarea name="" id="" cols="50" rows="5"></textarea>
-                </label> &nbsp;
-                <label for=""> Permanent Address: <br>
-                    <textarea name="" id="" cols="50" rows="5"></textarea>
-                </label>
-            </div>
-            <label for="picture">Picture: 
-                <input type="file" class="py-2 px-3 border-0 rounded-2" id="picture" value="picture">
             </label>
-            <label for="picture" class="mb-3">Payment Method: 
-                <button  class="py-1 px-3 border-0 rounded-2 bg-danger text-light fs-5 fw-bolder my-1 me-3">Bikash</button>
-                <button class="py-1 px-3 border-0 rounded-2 bg-success text-light fs-5 fw-bolder my-1">Nogoth</button>
-            </label><br>
-            <input type="button" value="Submit" class="py-1 px-3 border-0 rounded-2 bg-dark text-light fs-5 fw-bolder text-center d-block m-auto">
+            </div>
+               <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <label for=""> Present Address: <br>
+                        <textarea name="" id="" ></textarea>
+                    </label> 
+                   </div>
+                   <div class="col-md-6 col-sm-12">
+                    <label for=""> Permanent Address: <br>
+                        <textarea name="" id=""></textarea>
+                    </label>
+                   </div>
+               </div>
+          <div class="row mt-3">
+            <div class="col-md-6 col-sm-12">
+                <label for="picture">Picture: 
+                    <input type="file" class="py-2 px-3 border-0 rounded-2" id="picture" value="picture">
+                </label>
+               </div>
+            <div class="col-md-6 col-sm-12">
+                <label for="picture" class="mb-3">Payment Method: 
+                    <span class="common-button"><button  class="py-1 px-3 border-0 rounded-2 bg-danger text-light fs-5 fw-bolder my-1 me-3">Bikash</button> 
+                    </span>
+                   <span class="common-button">
+                    <button class="py-1 px-3 border-0 rounded-2 bg-success text-light fs-5 fw-bolder my-1">Nogoth</button>
+                   </span>
+                </label>
+               </div>
+          </div>
+           <div class="col-md-12">
+            <span class="link-button">
+                <input type="button" value="Submit" class="py-1 px-3 border-0 rounded-2 bg-dark text-light fs-5 fw-bolder text-center d-block m-auto">
+            </span>
+           </div>
         </form>
        </div>
     </div>
