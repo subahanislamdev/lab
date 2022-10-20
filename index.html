@@ -5,13 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Registration Form of BSFMSTU </title>
+    <link rel="shortcut icon" href="https://bsfmstu.ac.bd/wp-content/uploads/2019/08/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- NAVBAR START -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://bsfmstu.ac.bd/wp-content/uploads/2019/08/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                BSFMSTU
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Contack</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- NAVBAR END -->
  <div class="container bg-light">
     <div class="row p-5">
-       <marquee behavior="" direction="2s"> <h1 class="fs-4 fw-bold my-3 text-danger">Student Registration Form</h1></marquee>
+       <marquee behavior="" direction="2s"> <h1 class="fs-4 fw-bold my-3 text-danger">Student Registration Form of BSFMSTU </h1></marquee>
        <div class="col-md-12">
         <form action="">
            <div class="col-md-12 sm-12">
@@ -49,10 +76,10 @@
                     <textarea name="" id="" cols="50" rows="5"></textarea>
                 </label>
             </div>
-            <label for="picture">Picture 
+            <label for="picture">Picture: 
                 <input type="file" class="py-2 px-3 border-0 rounded-2" id="picture" value="picture">
             </label>
-            <label for="picture" class="mb-3">Payment Method 
+            <label for="picture" class="mb-3">Payment Method: 
                 <button  class="py-1 px-3 border-0 rounded-2 bg-danger text-light fs-5 fw-bolder my-1 me-3">Bikash</button>
                 <button class="py-1 px-3 border-0 rounded-2 bg-success text-light fs-5 fw-bolder my-1">Nogoth</button>
             </label><br>
@@ -61,5 +88,6 @@
        </div>
     </div>
  </div>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
